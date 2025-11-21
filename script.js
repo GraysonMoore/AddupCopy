@@ -5,7 +5,7 @@ $("#button").click(function(event) {
 	if (b < 20) {
 		matcost = b * 5;
 	} else if (b >= 20 && b <= 500) {
-		matcost = b * (-0.007083333 * b + 5.14166667);
+		matcost = b * (8.155 - (1.053 * Math.log(b)));
 	} else if (b > 500) {
 		matcost = b * 1.6;
 	}

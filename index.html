@@ -1,1 +1,65 @@
-<html>Joke</html>
+<!DOCTYPE>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Calculation</title>
+		<style>
+			#answer h1 {
+				font-size:9em;
+			}
+			#answer2 h1 {
+				font-size:9em;
+			}
+			#button {
+				margin-top:20px;
+				width:30%;
+				height:10%;
+			}
+			.hour {
+				font-size:400%;
+			}
+			.in {
+				width:30%;
+				height:10%;
+				font-size:400%;
+			}
+			#inputm {
+				margin-bottom:50px;
+			}
+			body {
+				zoom:0;
+			}
+			#enter {
+				font-size:200%;
+			}
+			p {
+				font-size:2em;
+			}
+			.jh {
+				display:inline;
+			}
+			.jh2 {
+				display:inline;
+			}
+		</style>
+	</head>
+	<body>	
+		<section>
+			<div>
+				<center>
+					<h2 class="hour" class="inline1">Hours:</h2>
+					<input type="integer" id="inputh" class="in" class="inline1">
+					<h2 class="hour" class="inline2">Material Cost:</h2>
+					<input type="integer" id="inputm" class="in" class="inline2"><br>
+					<button id="button"><span id="enter">Enter</span></button>
+					<h2 class="hour">Charge the Customer:</h2>
+					<output id="answer" class="jh"></output>
+					<output id="answer2" class="jh2"></output>
+				</center>
+			</div>
+		</section>
+		<footer></footer>
+		<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>

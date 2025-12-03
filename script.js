@@ -3,9 +3,9 @@ $("#button").click(function(event) {
 	var b = Number($("#inputm").val());
 	var matcost = 0;
 	if (b < 20) {
-		matcost = b * 5;
+		matcost = b * 3;
 	} else if (b >= 20 && b <= 500) {
-		matcost = b * (13.9142 + (-3.9008 * Math.log(b)) + 0.3088 * (Math.log(b) ** 2));
+		matcost = b * (5.73518 + (-1.12898 * Math.log(b)) + 0.074166 * (Math.log(b) ** 2));
 	} else if (b > 500) {
 		matcost = b * 1.6;
 	}
